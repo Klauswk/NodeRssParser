@@ -19,6 +19,12 @@ const parser = require('noderssparser');
 parser("Atom or Rss data raw data");
 ```
 
+## CLI Usage
+
+```
+$ noderssparser /path/tofile opcionalOutput
+```
+
 [npm-image]: https://img.shields.io/npm/v/noderssparser.svg
 [npm-url]: https://npmjs.org/package/noderssparser
 [downloads-image]: https://img.shields.io/npm/dm/noderssparser.svg
