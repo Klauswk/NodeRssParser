@@ -1,8 +1,8 @@
 {
     "name": "noderssparser",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "An simple Rss2.0/Atom parser write in node",
-    "main": "app/Parser.js",
+    "main": "lib/nodeRssParser",
     "scripts": {
         "test": "mocha --recursive",
         "test:unit": "mocha --recursive test/unit",
