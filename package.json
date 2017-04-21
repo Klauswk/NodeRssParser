@@ -1,30 +1,31 @@
 {
     "name": "rss-signer",
     "version": "1.0.0",
-    "description": "An Rss signer write in node",
-    "main": "app/app.js",
+    "description": "An simple Rss2.0/Atom parser write in node",
+    "main": "app/Parser.js",
     "scripts": {
         "test": "mocha --recursive",
         "test:unit": "mocha --recursive test/unit",
-        "test:int": "mocha --recursive test/integration",
-        "start": "node app/app.js"
+        "test:int": "mocha --recursive test/integration"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Klauswk/RssSigner.git"
+        "url": "git+https://github.com/Klauswk/NodeRssParser.git"
     },
     "keywords": [
         "rss",
-        "signer",
         "node",
-        "nodejs"
+        "nodejs",
+        "parser",
+        "atom",
+        "rss2.0"
     ],
     "author": "Klaus Klein",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Klauswk/RssSigner/issues"
+        "url": "https://github.com/Klauswk/NodeRssParser/issues"
     },
-    "homepage": "https://github.com/Klauswk/RssSigner#readme",
+    "homepage": "https://github.com/Klauswk/NodeRssParser#readme",
     "devDependencies": {
         "expect.js": "^0.3.1",
         "mocha": "^3.2.0"
