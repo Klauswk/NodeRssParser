@@ -1,6 +1,6 @@
 {
     "name": "noderssparser",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "An simple Rss2.0/Atom parser write in node",
     "main": "lib/nodeRssParser",
     "scripts": {
